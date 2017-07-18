@@ -1,0 +1,21 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "workbench.action.closeFolder"
+  },
+  {
+    "key": "ctrl+k f",
+    "command": "-workbench.action.closeFolder"
+  },
+  {
+    "key": "ctrl+k f",
+    "command": "editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "-editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly"
+  }
+]

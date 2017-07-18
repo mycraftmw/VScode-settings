@@ -1,0 +1,16 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.tabSize": 2,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "editor.fontLigatures": true
+}
